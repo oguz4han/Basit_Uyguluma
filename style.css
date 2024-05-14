@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/916789570/tr/foto%C4%9Fraf/metin-veya-resim-alan%C4%B1-olan-grunge-arka-plan.jpg?s=612x612&w=0&k=20&c=KPr68qK7ZtojtTrXDNkZ7J5H_EHvL4wZmPUu5nVza9I=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 450px;
+    background-color: #6b5858;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+
+
+.container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.container img:hover{
+    transform: scale(0.8);
+}
+
+.container h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.container h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.container p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+} 
+.container li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.container li a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+
+.container li a:hover{
+    color: #6b5858;
+}
